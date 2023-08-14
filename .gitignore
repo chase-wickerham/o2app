@@ -9,10 +9,8 @@ Thumbs.db
 *.sublime*
 *.idea*
 
-# Ignore logs and databases
+# Ignore logs 
 *.log
-*.sql
-*.sqlite
 
 # Ignore PHP's Composer dependency directory
 /vendor/
