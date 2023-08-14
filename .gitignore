@@ -1,0 +1,18 @@
+# Ignore configuration files
+db_connection.php
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore editor files
+*.sublime*
+*.idea*
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore PHP's Composer dependency directory
+/vendor/

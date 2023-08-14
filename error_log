@@ -1,0 +1,417 @@
+[10-Aug-2023 17:36:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'o2admin'@'localhost' (using password: YES) in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 21
+[10-Aug-2023 17:41:56 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 11
+[10-Aug-2023 17:41:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 11
+[10-Aug-2023 17:44:43 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 11
+[10-Aug-2023 17:44:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 11
+[10-Aug-2023 17:48:33 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 11
+[10-Aug-2023 17:48:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function real_escape_string() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 11
+[10-Aug-2023 17:51:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'o2admin'@'localhost' (using password: YES) in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php:9
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php(9): mysqli->__construct()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/register.php on line 9
+[10-Aug-2023 18:30:06 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 20
+[10-Aug-2023 19:13:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:24
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 24
+[10-Aug-2023 19:13:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:24
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 24
+[10-Aug-2023 19:13:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:24
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 24
+[10-Aug-2023 19:13:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:24
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 24
+[10-Aug-2023 19:13:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:24
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 24
+[10-Aug-2023 19:13:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:24
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 24
+[10-Aug-2023 19:14:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:24
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 24
+[10-Aug-2023 19:15:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php:35
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php(35): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/login.php on line 35
+[10-Aug-2023 21:27:55 UTC] PHP Warning:  Undefined array key "username" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 7
+[10-Aug-2023 21:30:45 UTC] PHP Warning:  Undefined array key "username" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 12
+[10-Aug-2023 21:31:17 UTC] PHP Warning:  Undefined array key "username" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 12
+[10-Aug-2023 21:33:58 UTC] PHP Warning:  Undefined array key "username" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 12
+[10-Aug-2023 21:34:00 UTC] PHP Warning:  Undefined array key "username" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 12
+[10-Aug-2023 21:34:18 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:19 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:20 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:22 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:23 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:24 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:26 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:28 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:29 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:30 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:56 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:34:56 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:35:41 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:35:55 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:09 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:11 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:12 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:13 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:14 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:16 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:16 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:17 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:17 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:39:17 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:40:08 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:40:09 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:40:10 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:40:11 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:40:12 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:40:15 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:40:19 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:42:46 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:42:47 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:43:52 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:43:53 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:43:55 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:43:57 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:43:59 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:44:45 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:44:47 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:46:06 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:46:07 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:55:01 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:56:59 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:57:00 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:57:02 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:57:03 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:58:04 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 21:58:08 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:00:21 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:01:24 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:01:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:01:24 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:01:26 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:01:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:01:26 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:01:28 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:01:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:01:28 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:03:16 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:03:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:03:16 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:03:18 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:03:18 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:03:18 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:03:31 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:03:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:03:31 UTC] PHP Warning:  Undefined variable $sessusername in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 71
+[10-Aug-2023 22:05:53 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:05:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:05:55 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:05:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:06:13 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 22:06:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 10
+[10-Aug-2023 23:18:36 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:18:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:18:37 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:18:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:19:19 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:19:21 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:19:25 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:20:42 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:20:42 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:20:44 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:20:44 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:22:16 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 13
+[10-Aug-2023 23:22:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 13
+[10-Aug-2023 23:22:29 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 13
+[10-Aug-2023 23:22:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 13
+[10-Aug-2023 23:22:37 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:22:37 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:24:00 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:24:00 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:24:09 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:24:09 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:25:49 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:25:49 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:25:52 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:25:52 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:26:42 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:26:42 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:26:43 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:26:43 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:26:49 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:26:49 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:28:19 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:28:19 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:29:06 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:47 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:48 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:48 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:49 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:30:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 14
+[10-Aug-2023 23:31:11 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:31:11 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:31:12 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 271
+[10-Aug-2023 23:31:12 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 307
+[10-Aug-2023 23:33:08 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 274
+[10-Aug-2023 23:33:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 274
+[10-Aug-2023 23:33:08 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 310
+[10-Aug-2023 23:33:08 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 310
+[10-Aug-2023 23:33:09 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 274
+[10-Aug-2023 23:33:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 274
+[10-Aug-2023 23:33:09 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 310
+[10-Aug-2023 23:33:09 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 310
+[10-Aug-2023 23:36:18 UTC] PHP Warning:  Undefined variable $mysqli in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 17
+[10-Aug-2023 23:36:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 17
+[11-Aug-2023 02:25:27 UTC] PHP Warning:  require(your_database_connection_file.php): Failed to open stream: No such file or directory in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 17
+[11-Aug-2023 02:25:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'your_database_connection_file.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 17
+[11-Aug-2023 02:25:29 UTC] PHP Warning:  require(your_database_connection_file.php): Failed to open stream: No such file or directory in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 17
+[11-Aug-2023 02:25:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'your_database_connection_file.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 17
+[11-Aug-2023 02:26:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'country' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php:20
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php(20): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 20
+[11-Aug-2023 02:36:57 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 63
+[11-Aug-2023 02:36:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 63
+[11-Aug-2023 02:36:57 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 64
+[11-Aug-2023 02:36:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 64
+[11-Aug-2023 02:36:57 UTC] PHP Warning:  Undefined variable $user in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 65
+[11-Aug-2023 02:36:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/update_profile.php on line 65
+[11-Aug-2023 02:36:59 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:36:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:36:59 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:36:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:17 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:17 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:17 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:18 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:18 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:18 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:48 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:48 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:48 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:49 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:49 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:49 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:51 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:37:51 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:37:51 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:38:04 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:38:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:38:04 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:38:04 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:38:05 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:38:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:38:05 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:38:05 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:38:06 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:38:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 282
+[11-Aug-2023 02:38:06 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[11-Aug-2023 02:38:06 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 318
+[12-Aug-2023 15:07:59 UTC] PHP Warning:  Undefined variable $avatar in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 15
+[12-Aug-2023 15:08:00 UTC] PHP Warning:  Undefined variable $avatar in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 15
+[12-Aug-2023 15:20:51 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 137
+[12-Aug-2023 15:20:52 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 137
+[12-Aug-2023 15:21:22 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:22 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:23 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:23 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:23 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:24 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:24 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:24 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:25 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:25 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:26 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:21:27 UTC] PHP Parse error:  syntax error, unexpected identifier "profile", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 141
+[12-Aug-2023 15:27:24 UTC] PHP Parse error:  syntax error, unexpected identifier "rounded", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 324
+[12-Aug-2023 15:27:25 UTC] PHP Parse error:  syntax error, unexpected identifier "rounded", expecting "," or ";" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 324
+[12-Aug-2023 17:37:59 UTC] PHP Warning:  Undefined variable $avatar_image_path in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 13
+[12-Aug-2023 17:37:59 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 15
+[12-Aug-2023 17:37:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 15
+[12-Aug-2023 17:37:59 UTC] PHP Warning:  Undefined variable $displayDate in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 16
+[12-Aug-2023 17:37:59 UTC] PHP Warning:  Undefined variable $tagline in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 46
+[12-Aug-2023 17:37:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 46
+[12-Aug-2023 17:37:59 UTC] PHP Warning:  Undefined variable $avatar_value in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 54
+[12-Aug-2023 17:37:59 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/profile.php on line 54
+[12-Aug-2023 19:50:43 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 24
+[12-Aug-2023 19:51:12 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 24
+[12-Aug-2023 19:51:12 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 24
+[12-Aug-2023 19:51:12 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 24
+[12-Aug-2023 19:52:32 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 53
+[12-Aug-2023 19:52:32 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 53
+[12-Aug-2023 19:52:32 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 53
+[12-Aug-2023 19:53:15 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 51
+[12-Aug-2023 19:53:15 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 51
+[12-Aug-2023 19:53:15 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 51
+[12-Aug-2023 19:53:56 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:53:56 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:53:56 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:54:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php:9
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php(9): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php on line 9
+[12-Aug-2023 19:54:26 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:54:26 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:54:26 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:54:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php:9
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php(9): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php on line 9
+[12-Aug-2023 19:57:20 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:57:20 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:57:20 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 44
+[12-Aug-2023 19:57:58 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 53
+[12-Aug-2023 19:57:58 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 53
+[12-Aug-2023 19:57:58 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 53
+[12-Aug-2023 19:58:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php:9
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php(9): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php on line 9
+[12-Aug-2023 19:58:45 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 43
+[12-Aug-2023 19:58:45 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 43
+[12-Aug-2023 19:58:45 UTC] PHP Warning:  Undefined array key "id" in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/fetch_my_posts.php on line 43
+[12-Aug-2023 20:00:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'where clause' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php:9
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php(9): mysqli->prepare()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/delete_post.php on line 9
+[13-Aug-2023 18:20:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:645
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(645): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 645
+[13-Aug-2023 18:20:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:645
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(645): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 645
+[13-Aug-2023 18:22:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:84
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(84): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 84
+[13-Aug-2023 18:23:08 UTC] PHP Warning:  Undefined variable $topposterusernames in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 642
+[13-Aug-2023 18:23:08 UTC] PHP Warning:  Undefined variable $topposterpost_counts in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 645
+[13-Aug-2023 18:25:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:401
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(401): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 401
+[13-Aug-2023 18:25:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:401
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(401): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 401
+[13-Aug-2023 18:25:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:401
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(401): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 401
+[13-Aug-2023 18:25:35 UTC] PHP Warning:  Undefined variable $topposterusernames in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 643
+[13-Aug-2023 18:25:35 UTC] PHP Warning:  Undefined variable $topposterpost_counts in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 646
+[13-Aug-2023 18:30:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:376
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(376): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 376
+[13-Aug-2023 18:30:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:376
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(376): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 376
+[13-Aug-2023 18:30:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:376
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(376): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 376
+[13-Aug-2023 18:31:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'posts.id' in 'field list' in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php:17
+Stack trace:
+#0 /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 17
+[13-Aug-2023 18:32:39 UTC] PHP Warning:  Undefined variable $topposterusernames in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 669
+[13-Aug-2023 18:32:39 UTC] PHP Warning:  Undefined variable $topposterpost_counts in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 672
+[13-Aug-2023 18:32:47 UTC] PHP Warning:  Undefined variable $topposterusernames in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 669
+[13-Aug-2023 18:32:47 UTC] PHP Warning:  Undefined variable $topposterpost_counts in /home/nbrjo71hquxl/public_html/o2dev.chasewickerham.com/dashboard.php on line 672
